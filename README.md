@@ -10,5 +10,5 @@ A search system designed to efficiently confine and select specific detailed inf
 
 ## Technologies Used
 - Programming Language: C++
-- Database Management: TXT files
+- Database Management: CSV files, TXT files
 - Tools: Visual Studio
