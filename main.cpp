@@ -1,21 +1,15 @@
 /* Author: Raameen Ahmed
 Creation Date: 12/05/2024
 Last Modification Date: 12/06/2024
-Purpose: Lab 11 Question 1 ~ The purpose of this program is to filter and sort a
-database consisting of the 50 states'
-abbreviation, name, capital, population, year, and number of represenitives in
-congress. By using a temporary object,
-the program is able to retrieve attributes of the states from each line of the
-file, read them into a string ( and
-convert back to an integer if need be ), and place them into a vector which stores
-all of the data from the database.
-In doing so, the program is able to create a search system by comparing the user's
-input to items in the vector, and
-displays the information of the selected state using a displayStateInfo class, if
-the selected state exists. The program
-also consists of an option to display all of the sorted information for the user
-and a class which computes the amount of
-citizens per represenitive of each state.
+Purpose: The purpose of this program is to filter and sort a database consisting of the 50 states'
+abbreviation, name, capital, population, year, and number of representatives in Congress. By using a 
+temporary object, the program is able to retrieve attributes of the states from each line of the
+file, read them into a string ( and convert back to an integer if need be ), and place them into a 
+vector which stores all of the data from the database. In doing so, the program is able to create a 
+search system by comparing the user's input to items in the vector and displays the information of 
+the selected state using a displayStateInfo class if the selected state exists. The program also 
+consists of an option to display all of the sorted information for the user and a class which computes 
+the amount of citizens per represenitive of each state.
 */
 #include "state.h"
 #include <iostream>
